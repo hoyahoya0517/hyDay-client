@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@500&family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  width: 100%;
+  height: 100vh;
+  color: #121110;
+  font-family: "NotoSansKR", "Poppins", sans-serif !important;
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  height: 100%;
+}
+::selection {
+  background: #b4fcbe;
 }

@@ -1,0 +1,37 @@
+.plan {
+  position: relative;
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: url("https://res.cloudinary.com/hoyahoya/image/upload/v1696395081/hy/5555_tg4ic7.jpg")
+    no-repeat center;
+  background-size: cover;
+}
+
+.planDay {
+  display: flex;
+  flex-basis: 6%;
+  align-items: center;
+  font-size: 1.1rem;
+  margin: 20px 15px 0 15px;
+  border-bottom: 1px solid rgba(205, 205, 205, 0.751);
+}
+
+.planMain {
+  display: flex;
+  flex-basis: 94%;
+  flex-direction: column;
+  overflow: auto;
+  padding: 0 15px;
+}
+.planMain::-webkit-scrollbar {
+  width: 4px; /* 스크롤바의 너비 */
+}
+
+.planMain::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: rgb(170, 170, 170); /* 스크롤바의 색상 */
+  border-radius: 20px;
+}

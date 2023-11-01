@@ -1,0 +1,84 @@
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translateX(0%);
+  height: 100%;
+  width: 30vw;
+  background-color: white;
+  transition: 0.5s;
+  z-index: 8888;
+  border-right: 1px solid black;
+}
+
+.navMenuHidden {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  transform: translateX(-200%);
+  height: 100%;
+  width: 30vw;
+  background-color: white;
+  transition: 0.5s;
+  z-index: 8888;
+  border-right: 1px solid black;
+}
+
+.x {
+  display: flex;
+  justify-content: end;
+  flex-basis: 5%;
+}
+.xIcon {
+  cursor: pointer;
+}
+
+.navMenuCenter {
+  flex-basis: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 0 30px;
+}
+.home {
+  cursor: pointer;
+}
+.calendar {
+  cursor: pointer;
+}
+.wishlist {
+  cursor: pointer;
+}
+.adult {
+  cursor: pointer;
+}
+.adult:hover {
+  color: red;
+}
+.setting {
+  cursor: pointer;
+}
+
+.navMenuFooter {
+  flex-basis: 25%;
+  border-top: solid 1px #000;
+  margin: 0 30px;
+}
+.phone {
+  font-weight: 700;
+  font-size: 12px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.infoBox {
+  font-size: 12px;
+}

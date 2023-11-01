@@ -1,0 +1,27 @@
+.home {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+.dayOff {
+  visibility: hidden;
+  font-size: 0.9rem;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dayOn {
+  visibility: visible;
+  font-size: 1rem;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

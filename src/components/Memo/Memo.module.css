@@ -1,0 +1,44 @@
+.memo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}
+.memoTop {
+  display: flex;
+  flex-direction: row;
+}
+.memoTopLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(90, 90, 90);
+}
+.memoTopMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.memoTopMenuCheck {
+  cursor: pointer;
+}
+.memoMain {
+  padding-top: 5px;
+}
+
+.memoTextarea {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  border: 0;
+  outline: none;
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.45);
+}

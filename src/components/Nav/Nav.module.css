@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 8888;
+}
+.navClickOn {
+  cursor: pointer;
+  z-index: 9999;
+  width: 70px;
+  transform: rotate(65deg);
+  transition: 0.5s;
+}
+.navClickOff {
+  cursor: pointer;
+  z-index: 9999;
+  width: 70px;
+  transition: 0.5s;
+}
+.nav img {
+  width: 100%;
+}

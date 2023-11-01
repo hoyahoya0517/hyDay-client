@@ -1,0 +1,10 @@
+.calendarPage {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.calendar {
+  display: flex;
+  flex-basis: 75%;
+  color: rgb(198, 91, 14);
+}
