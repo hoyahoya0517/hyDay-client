@@ -67,6 +67,9 @@
 .setting {
   cursor: pointer;
 }
+.information {
+  cursor: pointer;
+}
 
 .navMenuFooter {
   flex-basis: 25%;
