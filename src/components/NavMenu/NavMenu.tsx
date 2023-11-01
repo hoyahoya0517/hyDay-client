@@ -36,8 +36,8 @@ export default function NavMenu(): JSX.Element {
         <div className={styles.wishlist}>WISHLIST</div>
         <div className={styles.adult}>19</div>
         <div className={styles.setting}>SETTING</div>
+        <div className={styles.information}>INFORMATION</div>
       </div>
-      <div className={styles.information}>INFORMATION</div>
       <div className={styles.navMenuFooter}>
         <div className={styles.phone}>Contact</div>
         <div className={styles.infoBox}>
