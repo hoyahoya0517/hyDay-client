@@ -107,7 +107,7 @@ export default function Memo({
       <div className={styles.memoMain}>
         <TextareaAutosize
           className={styles.memoTextarea}
-          minRows={6}
+          minRows={4}
           value={memoValue}
           onChange={(ev) => setMemoValue(ev.target.value)}
           spellCheck={false}
