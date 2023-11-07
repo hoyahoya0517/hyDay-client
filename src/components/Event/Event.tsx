@@ -59,6 +59,8 @@ export default function Event({
         title: " ",
         start,
         end: fixEndDay,
+        backgroundColor: "rgb(198, 91, 14)",
+        borderColor: "rgb(198, 91, 14)",
       });
       setCurrentHyDayEvent(array);
     } else {
@@ -66,6 +68,8 @@ export default function Event({
         id: Date.now().toString(),
         title: " ",
         date: clickDay,
+        backgroundColor: "rgb(198, 91, 14)",
+        borderColor: "rgb(198, 91, 14)",
       });
       setCurrentHyDayEvent(array);
     }

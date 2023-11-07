@@ -6,7 +6,9 @@ export type hyEvent = {
   date?: string;
   start?: string;
   end?: string;
-  force?: String;
+  force?: string;
+  backgroundColor?: string;
+  borderColor?: string;
 };
 
 export type hyDay = {

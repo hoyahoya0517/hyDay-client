@@ -1,0 +1,6 @@
+.colorWrap {
+  position: absolute;
+  top: 109%;
+  right: 0%;
+  z-index: 9999;
+}
